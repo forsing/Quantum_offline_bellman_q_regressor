@@ -15,9 +15,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -443,17 +443,17 @@ Posebnost: Deterministicka Bellman-ova jednacina i politika nad kvantnim amplitu
 CSV: loto7_4718_k90.csv
 Validacija NLL (gamma=0.95, reg=0.001): 21.1500
 Test NLL: 21.0330
-NEXT: [1, 8, 13, 23, 29, 33, 39]
+NEXT: [1, x, 13, y, 29, z, 39]
 
 CSV: loto7_4718_k90_loto_2981.csv
 Validacija NLL (gamma=0.95, reg=0.001): 21.1684
 Test NLL: 21.1314
-NEXT: [1, 8, 13, 21, 24, 33, 39]
+NEXT: [1, x, 13, y, 24, z, 39]
 
 CSV: loto7_4718_k90_loto_plus_1737.csv
 Validacija NLL (gamma=0.85, reg=0.001): 21.2899
 Test NLL: 21.8491
-NEXT: [3, 7, 17, 23, 28, 31, 39]
+NEXT: [3, x, 17, y, 28, z, 39]
 """
 
 
